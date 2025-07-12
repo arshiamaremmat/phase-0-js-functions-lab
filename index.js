@@ -26,10 +26,11 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
   return originalPrice - discount;
 }
 
-console.log(calculateTax(200)); // 20
-console.log(convertToUpperCase("hello")); // "HELLO"
-console.log(findMaximum(10, 25)); // 25
-console.log(isPalindrome("Racecar")); // true
-console.log(calculateDiscountedPrice(100, 20)); // 80
+console.log(calculateTax(200));
+console.log(convertToUpperCase("hello"));
+console.log(findMaximum(10, 25));
+console.log(isPalindrome("Racecar")); 
+console.log(calculateDiscountedPrice(100, 20)); 
+
 // This is required for the test to function properly  
 module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
